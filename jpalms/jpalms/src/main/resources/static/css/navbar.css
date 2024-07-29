@@ -1,0 +1,99 @@
+@import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);
+
+.notosanskr * {
+    font-family: 'Noto Sans KR', sans-serif;
+}
+@font-face {
+    font-family: "GmarketSans";
+    src: url("../font/GmarketSansTTFMedium.ttf") format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+:root {
+    --color-main-black: #3E3E3E;
+    --color-main-orange: #FE9519;
+    --color-main-white: #FFFFFF;
+}
+.navbar{
+    background-color: var(--color-main-black);
+    display: flex;
+}
+.kau_likelion_logo{
+    width: 40px;
+    height: 40px;
+    border-radius: 8px;
+}
+.likelionlogo_btn{
+    width: 60px;
+    height: 60px;
+    background-color: #FFFFFF;
+    border: none;
+    border-radius: 8px;
+    font-family: "GmarketSans";
+    color: var(--color-main-orange);
+    font-size: 12px;
+}
+.homebtn_div{
+    width: 50px;
+    display: block;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-right: 0px;
+    margin-left: auto;
+}
+.likelion_title{
+    font-family: "GmarketSans";
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 30px;
+}
+.kau_title{
+    font-family: "GmarketSans";
+    color: #FFFFFF;
+    font-weight: lighter;
+    font-size: 15px;
+    margin-top: 0px;
+}
+
+.homework_btn{
+    width: 46px;
+    height: 46px;
+    background-color: var(--color-main-orange);
+    border: 1px solid #FFFFFF;
+    border-radius: 8px;
+    justify-content: center;
+    padding: 0;
+
+    font-family: "GmarketSans";
+    color: #FFFFFF;
+    font-size: 12px;
+    text-decoration: none;
+}
+.assignment_backpack{
+    width: 40px;
+    height: 40px;
+    margin-bottom: 6px;
+}
+/*.homework_list{*/
+/*    font-family: "GmarketSans";*/
+/*    color: #FFFFFF;*/
+/*    font-size: 12px;*/
+/*    text-decoration: none;*/
+/*}*/
+.assignment_nav{
+    width: 50px;
+    display: block;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 10px;
+    margin-right: auto;
+    margin-left: 0px;
+}
+.navbar_title_txt{
+    margin-top: 10px;
+    display: block;
+    text-align: center;
+    flex-direction: column;
+    padding-top: 20px;
+    margin: auto;
+}

@@ -1,0 +1,64 @@
+@import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);
+
+.notosanskr * {
+    font-family: 'Noto Sans KR', sans-serif;
+}
+@font-face {
+    font-family: 'GmarketSans';
+    src: url("../font/GmarketSansTTFMedium.ttf") format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+:root {
+    --color-main-black: #3E3E3E;
+    --color-main-orange: #FE9519;
+    --color-main-white: #FFFFFF;
+ }
+.footerbar{
+    display: flex;
+    background-color: var(--color-main-black);
+
+}
+.footer_txt_div{
+    display : block;
+    flex-direction : column;
+    justify-content: center;
+    height: 140px;
+    width: 1440px;
+}
+.footer_title{
+    color: #FFFFFF;
+    font-family: "GmarketSans";
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    text-align: center;
+}
+.footer_menus {
+    display : flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+.managers{
+    color: #FFFFFF;
+    font-family: "Noto Sans KR";
+    font-size: 12px;
+    text-decoration: none;
+    margin-left: auto;
+}
+.KAU_LikeLion{
+    color: #FFFFFF;
+    font-family: "Noto Sans KR";
+    font-size: 12px;
+    text-decoration: none;
+    margin-right: 100px ;
+    margin-left: 100px ;
+}
+.LikeLion_Univ{
+    color: #FFFFFF;
+    font-family: "Noto Sans KR";
+    font-size: 12px;
+    text-decoration: none;
+    margin-right: auto;
+}
